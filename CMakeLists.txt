@@ -38,6 +38,15 @@ add_executable(BreakoutGame 02.BreakoutGame/main.c
 target_link_libraries(BreakoutGame PRIVATE raylib)
 
 
+# 3.FlappyCube
+add_executable(FlappyCube 03.FlappyCube/main.c
+        03.FlappyCube/config.h
+        03.FlappyCube/cube.h
+        03.FlappyCube/cube.c
+)
+target_link_libraries(FlappyCube PRIVATE raylib)
+
+
 # ===============================
 # target_include_directories(Raylib PRIVATE ${raylib_INCLUDE_DIRS})
 # target_link_libraries(Raylib PRIVATE ${LIB1})
