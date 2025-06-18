@@ -32,7 +32,9 @@ add_executable(BreakoutGame 02.BreakoutGame/main.c
         02.BreakoutGame/paddle.c
         02.BreakoutGame/config.h
         02.BreakoutGame/brick.h
-        02.BreakoutGame/brick.c)
+        02.BreakoutGame/brick.c
+        02.BreakoutGame/ball.h
+        02.BreakoutGame/ball.c)
 target_link_libraries(BreakoutGame PRIVATE raylib)
 
 

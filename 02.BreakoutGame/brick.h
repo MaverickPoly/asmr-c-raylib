@@ -6,6 +6,7 @@
 typedef struct {
     Rectangle rect;
     Color color;
+    int active;
 } Brick;
 
 Brick CreateBrick(const double x, const double y, const Color color);
