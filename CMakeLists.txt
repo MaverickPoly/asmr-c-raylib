@@ -65,6 +65,14 @@ add_executable(FallingBlocks 08.FallingBlocks/main.c
         08.FallingBlocks/config.h)
 target_link_libraries(FallingBlocks PRIVATE raylib)
 
+# 9.MouseCircle
+add_executable(MouseCircle 09.MouseCircle/main.c)
+target_link_libraries(MouseCircle PRIVATE raylib)
+
+# 10.TicTacToe
+add_executable(TicTacToe 10.TicTacToe/main.c)
+target_link_libraries(TicTacToe PRIVATE raylib)
+
 
 # ===============================
 # target_include_directories(Raylib PRIVATE ${raylib_INCLUDE_DIRS})

@@ -12,5 +12,5 @@
 6. Space Shooter Game
 7. Camera movement
 8. Falling Blocks (Catch Game)
-9. Collision Map (Can move but collide with boxes and walls)
+9. Mouse Circle (circle that follows mouse)
 10. Tic-Tac-Toe
