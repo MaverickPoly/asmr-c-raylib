@@ -35,6 +35,7 @@ add_executable(BreakoutGame 02.BreakoutGame/main.c
         02.BreakoutGame/brick.c
         02.BreakoutGame/ball.h
         02.BreakoutGame/ball.c
+        08.FallingBlocks/config.h
 )
 target_link_libraries(BreakoutGame PRIVATE raylib)
 
@@ -58,6 +59,11 @@ target_link_libraries(SnakeGame PRIVATE raylib)
 # 7.CameraMovement
 add_executable(CameraMovement 07.CameraMovement/main.c)
 target_link_libraries(CameraMovement PRIVATE raylib)
+
+# 8.FallingBlocks
+add_executable(FallingBlocks 08.FallingBlocks/main.c
+        08.FallingBlocks/config.h)
+target_link_libraries(FallingBlocks PRIVATE raylib)
 
 
 # ===============================
