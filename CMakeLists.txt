@@ -34,7 +34,8 @@ add_executable(BreakoutGame 02.BreakoutGame/main.c
         02.BreakoutGame/brick.h
         02.BreakoutGame/brick.c
         02.BreakoutGame/ball.h
-        02.BreakoutGame/ball.c)
+        02.BreakoutGame/ball.c
+)
 target_link_libraries(BreakoutGame PRIVATE raylib)
 
 
@@ -45,6 +46,18 @@ add_executable(FlappyCube 03.FlappyCube/main.c
         03.FlappyCube/cube.c
 )
 target_link_libraries(FlappyCube PRIVATE raylib)
+
+# 4.SnakeGame
+add_executable(SnakeGame 04.SnakeGame/main.c
+        04.SnakeGame/config.h
+        04.SnakeGame/snake.c
+        04.SnakeGame/snake.h
+)
+target_link_libraries(SnakeGame PRIVATE raylib)
+
+# 7.CameraMovement
+add_executable(CameraMovement 07.CameraMovement/main.c)
+target_link_libraries(CameraMovement PRIVATE raylib)
 
 
 # ===============================
