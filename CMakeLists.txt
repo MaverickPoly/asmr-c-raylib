@@ -56,6 +56,16 @@ add_executable(SnakeGame 04.SnakeGame/main.c
 )
 target_link_libraries(SnakeGame PRIVATE raylib)
 
+# 5.DinoRunner
+add_executable(DinoRunner 05.DinoRunner/main.c
+        05.DinoRunner/dino.c
+        05.DinoRunner/dino.h
+        05.DinoRunner/config.h
+        05.DinoRunner/cactus.c
+        05.DinoRunner/cactus.h
+)
+target_link_libraries(DinoRunner PRIVATE raylib)
+
 # 7.CameraMovement
 add_executable(CameraMovement 07.CameraMovement/main.c)
 target_link_libraries(CameraMovement PRIVATE raylib)
