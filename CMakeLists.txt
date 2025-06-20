@@ -35,7 +35,6 @@ add_executable(BreakoutGame 02.BreakoutGame/main.c
         02.BreakoutGame/brick.c
         02.BreakoutGame/ball.h
         02.BreakoutGame/ball.c
-        08.FallingBlocks/config.h
 )
 target_link_libraries(BreakoutGame PRIVATE raylib)
 
@@ -66,13 +65,23 @@ add_executable(DinoRunner 05.DinoRunner/main.c
 )
 target_link_libraries(DinoRunner PRIVATE raylib)
 
+# 6.SpaceShooter
+add_executable(SpaceShooter 06.SpaceShooter/main.c
+        06.SpaceShooter/rocket/rocket.c
+        06.SpaceShooter/rocket/rocket.h
+        06.SpaceShooter/laser/laser.c
+        06.SpaceShooter/laser/laser.h
+)
+target_link_libraries(SpaceShooter PRIVATE raylib)
+
 # 7.CameraMovement
 add_executable(CameraMovement 07.CameraMovement/main.c)
 target_link_libraries(CameraMovement PRIVATE raylib)
 
 # 8.FallingBlocks
 add_executable(FallingBlocks 08.FallingBlocks/main.c
-        08.FallingBlocks/config.h)
+        08.FallingBlocks/config.h
+)
 target_link_libraries(FallingBlocks PRIVATE raylib)
 
 # 9.MouseCircle
