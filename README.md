@@ -7,7 +7,7 @@
 1. Pong Clone
 2. Breakout Game
 3. Flabby Cube
-4. Snake Game
+4. Bouncing Ball
 5. Dino Runner Clone
 6. Space Shooter Game
 7. Camera movement
