@@ -47,13 +47,10 @@ add_executable(FlappyCube 03.FlappyCube/main.c
 )
 target_link_libraries(FlappyCube PRIVATE raylib)
 
-# 4.SnakeGame
-add_executable(SnakeGame 04.SnakeGame/main.c
-        04.SnakeGame/config.h
-        04.SnakeGame/snake.c
-        04.SnakeGame/snake.h
+# 4.BouncingBall
+add_executable(BouncingBall 04.BouncingBall/main.c
 )
-target_link_libraries(SnakeGame PRIVATE raylib)
+target_link_libraries(BouncingBall PRIVATE raylib)
 
 # 5.DinoRunner
 add_executable(DinoRunner 05.DinoRunner/main.c
@@ -71,6 +68,8 @@ add_executable(SpaceShooter 06.SpaceShooter/main.c
         06.SpaceShooter/rocket/rocket.h
         06.SpaceShooter/laser/laser.c
         06.SpaceShooter/laser/laser.h
+        06.SpaceShooter/meteor/meteor.c
+        06.SpaceShooter/meteor/meteor.h
 )
 target_link_libraries(SpaceShooter PRIVATE raylib)
 

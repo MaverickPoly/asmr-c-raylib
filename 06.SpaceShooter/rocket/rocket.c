@@ -21,7 +21,7 @@ Rocket CreateRocket() {
 void UpdateRocket(Rocket* rocket, float dt) {
     rocket->direction.x = IsKeyDown(KEY_RIGHT) - IsKeyDown(KEY_LEFT);
     rocket->direction.y = IsKeyDown(KEY_DOWN) - IsKeyDown(KEY_UP);
-    Vector2Normalize(rocket->direction);
+    rocket->direction = Vector2Normalize(rocket->direction);
 
     rocket->rect.x += rocket->direction.x * dt * ROCKET_SPEED;
     rocket->rect.y += rocket->direction.y * dt * ROCKET_SPEED;

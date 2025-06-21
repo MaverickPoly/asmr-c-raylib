@@ -3,9 +3,10 @@
 
 #include "rocket/rocket.h"
 #include "laser/laser.h"
+#include "meteor/meteor.h"
 
 // Window
-#define WIDTH 1600
+#define WIDTH 1700
 #define HEIGHT 1000
 #define STARS_NUM 40
 #define STAR_SIZE 50
@@ -20,5 +21,10 @@
 #define LASER_W 9
 #define LASER_H 54
 #define LASER_SPEED 800
+
+// Meteor
+#define METEOR_W 101
+#define METEOR_H 84
+#define METEOR_SPAWN_TIME 0.5
 
 #endif //CONFIG_H
